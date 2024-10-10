@@ -1,0 +1,5 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {0.1}Introduzione}{3}{section.0.1}%
+\contentsline {section}{\numberline {0.2}SEZIONE.CSV}{3}{section.0.2}%
+\contentsline {section}{\numberline {0.3}SCHEMA STATICO.CSV}{3}{section.0.3}%
