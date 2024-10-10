@@ -5,7 +5,7 @@ import math
 import matplotlib.pyplot as plt
 from collections import Counter
 
-def Lunghezze(X,Y,C,NUM_ASTE,SPESSORE):
+def Lunghezze(X,Y,C,NUM_ASTE):
     L=[]
 
     for i in range(NUM_ASTE):
@@ -333,7 +333,7 @@ def main():
         quit()
 
     #Calcolo le proprietà principali
-    L=Lunghezze(X,Y,C,NUM_ASTE,SPESSORE)
+    L=Lunghezze(X,Y,C,NUM_ASTE)
 
     A=Area(L,SPESSORE,NUM_ASTE)
     Aree=A[0]

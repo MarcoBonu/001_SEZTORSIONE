@@ -77,9 +77,10 @@ def Inerzie_torsionali(I,DATI_SCHEMA_STATICO):
         flag_trave_prismatica = DATI_SCHEMA_STATICO.TRAVE_PRISMATICA
 
     if "S"==flag_trave_prismatica:
-        Jt_j=float(DATI_SCHEMA_STATICO.JT)
-        Jpsi_j=float(DATI_SCHEMA_STATICO.Jpsi)
+
         for j in range(I+1):
+            Jt_j=float(DATI_SCHEMA_STATICO.JT[j])
+            Jpsi_j=float(DATI_SCHEMA_STATICO.Jpsi[j])
             J_t.append(Jt_j)
             J_psi.append(Jpsi_j)
 
