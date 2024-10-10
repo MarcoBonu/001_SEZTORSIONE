@@ -1,8 +1,0 @@
-VARIABILE;VALORE;INF0
-NUMERO_DI_PUNTI;			4;						[numero puro]
-X_PUNTI;				[4.5,0,0,4.5];					[cm]
-Y_PUNTI;				[8,8,0,0]; 				[cm]
-NUMERO_DI_ASTE;				3; 						[numero puro]
-CONNETTIVITA;				[[1,2],[2,3],[3,4]];		
-SPESSORI; 				[0.8,0.6,0.8];					[cm]
-SCALA_DIAGRAMMA;			0.01;						[numero puro]
